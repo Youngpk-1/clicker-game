@@ -14,3 +14,25 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+# Apple Clicker Game 🍎
+
+An interactive clicker game built with React and Vite where players click on randomly appearing apples to score points.
+
+## Features
+
+- Dynamic apple sizing and positioning
+- Score and lives tracking
+- Progressive color changes based on score
+- Win condition at 100 points
+- Responsive click interactions
+
+## Technologies Used
+
+- React 19
+- Vite
+- CSS3
+- JavaScript ES6+
+
+## Installation
