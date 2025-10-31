@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.orchard-background {
+  position: relative;
+  background-image: url("/orchard.png");
+  background-size: contain;
+  width: 500px;
+  height: 700px;
+}
+
+.apple-target {
+  position: absolute;
+  background-image: url("/apple.png");
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+}
+
+.stats {
+  background-color: brown;
+  color: whitesmoke;
+  width: 500px;
+  padding: 15px;
+}
