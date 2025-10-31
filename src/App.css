@@ -16,6 +16,7 @@
   background-size: contain;
   width: 100px;
   height: 100px;
+  transition: all 0.5s ease-in-out;
 }
 
 .stats {
@@ -23,4 +24,35 @@
   color: whitesmoke;
   width: 500px;
   padding: 15px;
+}
+
+body {
+  background-color: brown;
+}
+
+ h1 {
+  display: flex;
+  font-size: 80px;
+  align-items: center;
+  color: aliceblue;
+}
+
+p {
+  font-size: 40px;
+  animation: flash 1s infinite;
+}
+
+@keyframes flash  {
+  0%, 50%, 100% {
+    opacity: 1;
+    color: white;
+  }
+  25%, 75% {
+    opacity: 0;
+    ;
+  }
+}
+
+button {
+  font-weight: bold;
 }
